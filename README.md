@@ -1,2 +1,3 @@
 # İleri Programlama
-[Nazan Kemaloglu](https://github.com/nazankemaloglu)
+- Pyhon ile basic algoritmalar çözdüm.
+- [Nazan Kemaloglu](https://github.com/nazankemaloglu)'nun dersinde tuttuğum notları ve ödevleri burada paylaştım
