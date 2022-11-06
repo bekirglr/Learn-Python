@@ -1,4 +1,5 @@
- 
+ #Girilen sayının faktöriyelini hesaplama
+
 sayi=int(input("Sayıyı Girin : "))
 fact = 1
  
