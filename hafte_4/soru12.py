@@ -1,14 +1,8 @@
-cumle="Klavyeden girilen bir kelime içindeki sesli harfleri bulan kodu yazınız."
-sesli="aeiıouüö"
-sessiz="qwrtypğsdghjklşzxcvbnmç"  
-harfler_sesli=" "
-harfler_sessiz=" "   
+i = 0
+kelime =input("bir kelime giriniz:")
+sesli = "aeıioöuü"
+for x in kelime:
+    if x in sesli:
+        i +=1
 
-for i in  cumle:
-    if i in sesli:
-        harfler_sesli=harfler_sesli+i
-    elif i in sessiz:
-        harfler_sessiz=harfler_sessiz+i
-        
-print("Sesli harfler ",harfler_sesli)
-print("Sessiz harfler ",harfler_sessiz)
+print (i)
