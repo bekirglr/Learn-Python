@@ -1,3 +1,4 @@
+#kelime içerisinde sesli harf bulma
 i = 0
 kelime =input("bir kelime giriniz:")
 sesli = "aeıioöuü"

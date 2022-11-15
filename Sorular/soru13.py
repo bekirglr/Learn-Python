@@ -1,3 +1,4 @@
+#kelime içerisinde kaç adet sesli harf olduğunu bulma
 cumle="Klavyeden girilen bir kelime içindeki sesli harfleri bulan kodu yazınız."
 sayac=0
 harf=input("aranacak harfi girin")

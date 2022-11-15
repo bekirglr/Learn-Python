@@ -1,3 +1,5 @@
+#bir metin içerisnde ki sesli ve sessiz harfleri bulma
+
 sesli_harfler = "aeıioöuü"
 sessiz_harfler = "bcçdfgğhjklmnprsştvyz"
 sesliler=""
