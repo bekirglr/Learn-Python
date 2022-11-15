@@ -1,3 +1,4 @@
+#otoparkta geçirilen süre ve ücretini hesaplama
 kalinan_saat=int(input("Kaldığınız saati girin"))
 toplam_ucret=0
 if kalinan_saat<=1:

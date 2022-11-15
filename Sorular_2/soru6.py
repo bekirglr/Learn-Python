@@ -1,3 +1,4 @@
+#şifre oluşturma
 kontrol=True
 while kontrol:
     sifre=input("Şifrenizi girin")

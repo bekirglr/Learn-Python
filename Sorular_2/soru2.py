@@ -1,3 +1,4 @@
+#en büyük ve en küçük olan sayıları bulma
 sifirMi=True
 eb=0
 ek=0

@@ -1,3 +1,4 @@
+#vize-final not ortalaması
 vize=int(input("Vize notunu girin: "))
 final=int(input("Final notunu girin: "))
 ortalama=(vize*0.4)+(final*0.6)

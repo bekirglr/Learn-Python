@@ -1,3 +1,4 @@
+#üs hesaplama
 taban=int(input("Tabanı girin"))
 us=int(input("Üssü girin"))
 carpim=1

@@ -1,3 +1,4 @@
+#şifre kontrol
 kontrol=True
 turkce_karakter="ığüşöçĞÜİÖÇ"
 
