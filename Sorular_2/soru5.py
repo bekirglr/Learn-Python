@@ -11,3 +11,4 @@ else:
     elif cevap=="E":
         print("Tebrikler" , ad_soyad," Mülakat başarılı")
     else: print("Yanlış giriş")
+    
