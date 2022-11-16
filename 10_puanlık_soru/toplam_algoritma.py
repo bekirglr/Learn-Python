@@ -82,7 +82,6 @@ else:
                             fact = fact*i
                         print(sayi," sayısının faktoriyeli : ",fact)
                 else:
-
 #-----------------------------------------------------------------------------------------------
                     if soruSec==6:
                         dogruSayisi=int(input("Doğru sayısını girin: "))
@@ -111,7 +110,6 @@ else:
                             sonuc=(5*k)+6
                             print("sonuc: ",sonuc)
                         else:
-
 #-----------------------------------------------------------------------------------------------
                             if soruSec==8:
                                 print("2.Dereceden Bir Denklemin Kökünü Bulma")
@@ -130,7 +128,6 @@ else:
                                     x2=(-b+delta**0.5)/(2*a)
                                     print("Birinci Kök : {}\nİkinci Kök : {}".format(x1,x2))
                             else:
-
 #-----------------------------------------------------------------------------------------------
                                 if soruSec==9:
                                     import random
@@ -163,6 +160,54 @@ else:
                                         ort=toplam/(pozSayac+negaSayac)
                                         print("Ortalama ",ort)
                                     else:
-                                        print()
+#-----------------------------------------------------------------------------------------------
+                                        if soruSec==11:
+                                            sayi=int(input("Bir sayı girin"))
+                                            for i in range(2,sayi):
+                                                if sayi%i==0:
+                                                    print("Asal değildir")
+                                                    break
+                                                else:
+                                                    print("Sayı asaldır")
+                                        else:
+#-----------------------------------------------------------------------------------------------
+                                            if soruSec==12:
+                                                i = 0
+                                                kelime =input("bir kelime giriniz:")
+                                                sesli = "aeıioöuü"
+                                                for x in kelime:
+                                                    if x in sesli:
+                                                        i +=1
 
+                                                print (i)
+                                            else:
+#-----------------------------------------------------------------------------------------------
+                                                if soruSec==13:
+                                                    cumle="Klavyeden girilen bir kelime içindeki sesli harfleri bulan kodu yazınız."
+                                                    sayac=0
+                                                    harf=input("aranacak harfi girin")
+                                                    for i in cumle:
+                                                        if i==harf:
+                                                            sayac=sayac+1
+                                                            
+                                                    print(harf," harfi cümle içinde",sayac," tane var")
+                                                else:
+#-----------------------------------------------------------------------------------------------
+                                                    if soruSec==14:
+                                                        sesli_harfler = "aeıioöuü"
+                                                        sessiz_harfler = "bcçdfgğhjklmnprsştvyz"
+                                                        sesliler=""
+                                                        sessizler=""
+                                                        a=input("bir metin giriniz")
+
+                                                        for i in a:
+                                                            if i in sesli_harfler:
+                                                                sesliler=sesliler+i
+                                                            if i in sessiz_harfler:
+                                                                sessizler=sessizler+i
+
+                                                        print("sesli harfler",sesliler)
+                                                        print("sessiz harfler",sessizler)
+                                                    else:
+                                                        print()
 #-----------------------------------------------------------------------------------------------
